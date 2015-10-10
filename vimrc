@@ -32,14 +32,13 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'altercation/vim-colors-solarized'
-"tpope being awsome
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 "Mark down is and expiremental repo
 "Plugin 'tpope/vim-markdown'
-"Plugin 'tpope/vim-commentart'
+"Plugin 'tpope/vim-commentary'
 "Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-rails'
 "Plugin 'tpope/vim-tbone'
