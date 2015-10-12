@@ -9,5 +9,6 @@
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     -
+        - "mkdir -p ~/{.vimundo,temp}"
         - "vim +PluginInstall +qall"
         - "Update bundles"
