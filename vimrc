@@ -50,7 +50,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
 "Additoinal File type Support
-Plugin 'taglist.vim'
+"Plugin 'taglist.vim'
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
@@ -62,7 +62,7 @@ Plugin 'godlygeek/tabular'
 "Plugin 'tomtom/tcomment_vim'
 "Plugin 'FuzzyFinder'
 Plugin 'scrooloose/syntastic'
-"Plugin 'Raimondi/delimitMate'
+Plugin 'Raimondi/delimitMate'
 "Plugin 'Shougo/neocomplete.vim'
 
 "plugin for handeling ansible
@@ -84,8 +84,8 @@ Plugin 'tmux-plugins/vim-tmux'
 "commenting for vim
 "Plugin 'tomtom/tcomment_vim'
 
-"Plugin 'Valloric/YouCompleteMe'
-"Plugin 'mattn/gist-vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'mattn/gist-vim'
 "Plugin 'Shougo/unite.vim'
 
 "way to visualize vim undo as tree
