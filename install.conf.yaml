@@ -1,6 +1,7 @@
 - clean: ['~']
 - link:
     ~/.dotfiles: ''
+    ~/.tmux: tmux/
     ~/.tmux.conf: tmux.conf
     ~/.vim: vim/
     ~/.vimrc: vimrc
@@ -8,8 +9,7 @@
     ~/.oh-my-zsh: oh-my-zsh/
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    -
-        - "mkdir -p ~/.vimundo"
-        - "mkdir -p ~/temp"
-        - "vim +PluginInstall +qall"
-        - "Update bundles"
+    - "mkdir -p ~/.vimundo"
+    - "mkdir -p ~/temp"
+    
+
